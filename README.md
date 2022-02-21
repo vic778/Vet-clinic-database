@@ -1,7 +1,8 @@
 # curriculum-databases-projects-template
+[](https://img.shields.io/badge/Microverse-blueviolet)
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
+> in this project i have created a table named animal inside my vet_clinic database and my table containe I then inserted the elements into my database using the INSERT INTO method which I followed each colon according to the values I was attrubing. For the boolean it returns tru or false and for the others it contains the value. 
+I then chose from my table the elements that end with name, the animals that were born in the space 2016 to 2019 and the animals that weigh between 10.4 and 17.3KG. 
 
 
 ## Getting Started
@@ -15,18 +16,11 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ## Authors
 
-👤 **Author1**
+👤 **Victor Barh**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
+- GitHub: [@Vvic778](https://github.com/vic778)
+- Twitter: [@victoirBarh](https://twitter.com/)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/victoir-barh)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
