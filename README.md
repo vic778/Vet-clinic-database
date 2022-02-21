@@ -1,8 +1,7 @@
 # curriculum-databases-projects-template
-[](https://img.shields.io/badge/Microverse-blueviolet)
 
-> in this project i have created a table named animal inside my vet_clinic database and my table containe I then inserted the elements into my database using the INSERT INTO method which I followed each colon according to the values I was attrubing. For the boolean it returns tru or false and for the others it contains the value. 
-I then chose from my table the elements that end with name, the animals that were born in the space 2016 to 2019 and the animals that weigh between 10.4 and 17.3KG. 
+> in this project I have created a table named animal inside my vet_clinic database and my table contained I then inserted the elements into my database using the INSERT INTO method which I followed each colon according to the values I was attributing. For the boolean, it returns true or false and for the others, it contains the value. 
+I then chose from my table the elements that end with name, the animals that were born in space 2016 to 2019, and the animals that weigh between 10.4 and 17.3KG. 
 
 
 ## Getting Started
