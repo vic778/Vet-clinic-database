@@ -11,6 +11,7 @@ SELECT * FROM animals WHERE weight_kg >= 10.4 AND weight_kg <= 17.3;
 BEGIN;
 UPDATE animals SET species = 'unspecified';
 ROLLBACK;
+COMMIT;
 
 BEGIN;
 UPDATE animals SET species = 'Digimon' WHERE name LIKE '%mon';
@@ -32,14 +33,14 @@ COMMIT;
 SELECT COUNT(*) FROM animals;
 -- 9
 
-SELECT COUNT(*) FROM animals WHERE neutered = false;
--- 3
-
 SELECT COUNT(*) FROM animals WHERE escape_attempts = 0;
 -- 2
 
 SELECT AVG(weight_kg) FROM animals;
 -- 16.6488888888888889
+
+SELECT COUNT(*) FROM animals WHERE neutered = false;
+-- 3
 
 SELECT MAX(escape_attempts) FROM animals;
 -- 7
