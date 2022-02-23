@@ -91,3 +91,71 @@ INSERT INTO animals (
     weight_kg
   )
 VALUES ('Blossom', '10/13/1998', 3, TRUE, 17);
+
+-- for owmers table
+
+INSERT INTO owners (
+  full_name,
+  age
+)
+VALUES ('Sam Smith ', 34)
+
+INSERT INTO owners (
+  full_name,
+  age
+)
+VALUES ('Jennifer Orwell', 19)
+
+INSERT INTO owners (
+  full_name,
+  age
+)
+VALUES ('Melody Pond', 77)
+
+INSERT INTO owners (
+  full_name,
+  age
+)
+VALUES ('Dean Winchester', 14)
+
+INSERT INTO owners (
+  full_name,
+  age
+)
+VALUES ('Jodie Whittaker', 38)
+
+-- species
+
+INSERT INTO species (
+  name
+)
+VALUE ('Pokemon')
+
+INSERT INTO species (
+  name
+)
+VALUE ('Digimon')
+
+-- Bob owns Devimon and Plantmon.
+
+UPDATE animals 
+SET owner_id = (SELECT id FROM owners WHERE full_name = 'Bob') 
+WHERE name = 'Devimon';
+
+UPDATE animals 
+SET owner_id = (SELECT id FROM owners WHERE full_name = 'Bob') 
+WHERE name = 'Plantmon';
+
+-- Modify your inserted animals to include owner information (owner_id): 
+
+UPDATE animals 
+SET owner_id = (SELECT id FROM owners WHERE full_name = 'Sam Smith') 
+WHERE name = 'Agumon';
+
+UPDATE animals 
+SET owner_id = (SELECT id FROM owners WHERE full_name = 'Jennifer Orwell') 
+WHERE name = 'Pikachu';
+
+UPDATE animals 
+SET owner_id = (SELECT id FROM owners WHERE full_name = 'Jennifer Orwell') 
+WHERE name = 'Gabumon';
