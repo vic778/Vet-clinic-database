@@ -14,11 +14,6 @@ ROLLBACK;
 COMMIT;
 
 BEGIN;
-UPDATE animals SET species = 'Digimon' WHERE name LIKE '%mon';
-UPDATE animals SET species = 'Pokemon' WHERE species IS NULL;
-COMMIT;
-
-BEGIN;
 DELETE FROM animals;
 ROLLBACK;
 

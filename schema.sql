@@ -39,9 +39,8 @@ ALTER TABLE animals
 
 -- Add column owner_id which is a foreign key referencing the owners table
 
-  LTER TABLE animals 
+ALTER TABLE animals 
   ADD owners_id INT, 
   ADD CONSTRAINT owners_id 
   FOREIGN KEY(owners_id) 
   REFERENCES owners(id);
-  
