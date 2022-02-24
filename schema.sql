@@ -46,7 +46,7 @@ ALTER TABLE animals
   REFERENCES owners(id);
 
 
-    -- Add column owner_id which is a foreign key referencing the owners table
+-- Add column owner_id which is a foreign key referencing the owners table
 
   ALTER TABLE animals 
   ADD owners_id INT, 
